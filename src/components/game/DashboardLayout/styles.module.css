@@ -1,0 +1,61 @@
+.gameLayout {
+  width: 400px;
+  background-color: #333333;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.gameLayout :global(.ant-collapse) {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 11;
+}
+
+.gameLayoutBody {
+  max-height: 800px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  margin: 0 10px;
+}
+
+.gameLayoutBody::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .gameLayout {
+    width: 100%;
+  }
+
+  .gameDashboardLayout {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    transform: translateX(100%);
+    z-index: 10;
+    top: 0px;
+    bottom: 62px;
+    transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86), opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86),
+      box-shadow 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  }
+
+  .dasboardLayoutBody {
+    max-height: 100%;
+  }
+
+  .gameDashboardLayout.show,
+  .gameBuyProperties.show {
+    transform: translateX(0);
+  }
+
+  .gameLayoutBody {
+    position: relative;
+  }
+
+  .gameLayoutBody.gameLayoutBodyShow {
+    overflow: hidden;
+  }
+}

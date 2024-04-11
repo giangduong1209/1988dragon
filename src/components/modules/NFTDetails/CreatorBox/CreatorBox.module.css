@@ -1,0 +1,246 @@
+.cardcreatorbox {
+  padding: 14px;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  width: auto;
+  cursor: pointer;
+  transition: box-shadow 0.3s, border-color 0.3s;
+  width: 550px;
+  margin: auto;
+  padding: 10px;
+}
+
+.content {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.accountName {
+  color: #000;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+  border-bottom: solid 1px gray;
+}
+
+.viewArea {
+  font-size: 18px;
+  align-items: right;
+}
+
+.inforAvatar {
+  text-align: left;
+}
+
+.avatar:global(.ant-avatar) {
+  /* position: absolute; */
+  bottom: -20px;
+  left: 25%;
+  transform: translate(-50%, 0px);
+  border: 2px solid white;
+  background-color: #fea013;
+}
+
+.accountTag {
+  font-size: 15px;
+  align-items: right;
+}
+
+.tag {
+  width: auto;
+  border-radius: 10px;
+  background: #222222;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 0;
+}
+
+.description {
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 5px;
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+
+.avatarCollection:global(.ant-avatar) {
+  bottom: -5px;
+  left: 30%;
+  transform: translate(-50%, 0px);
+  border: 2px solid white;
+  background-color: #fea013;
+}
+
+.titleCollection {
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 300px) {
+  .cardcreatorbox {
+    width: 250px;
+    margin: auto;
+  }
+
+  .accountTag {
+    font-size: 14px;
+    align-items: right;
+  }
+
+  .titleCollection {
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .cardcreatorbox {
+    width: 300px;
+    margin: auto;
+  }
+
+  .accountTag {
+    font-size: 14px;
+    align-items: right;
+  }
+
+  .titleCollection {
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .cardcreatorbox {
+    width: 400px;
+    margin: auto;
+  }
+
+  .accountTag {
+    font-size: 14px;
+    align-items: right;
+  }
+
+  .titleCollection {
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapperAvatar {
+    margin-left: 20px !important;
+  }
+
+  .inforAvatar {
+    margin-left: 20px !important;
+  }
+
+  .infoBottom {
+    margin-left: 20px !important;
+  }
+
+  .titleCollection {
+    font-weight: bold;
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 2000px) {
+  .cardcreatorbox {
+    padding: 14px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: auto;
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    width: 850px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .avatar:global(.ant-avatar) {
+    bottom: -20px;
+    left: 10%;
+    transform: translate(-50%, 0px);
+    border: 2px solid white;
+    background-color: #fea013;
+  }
+}
+
+@media only screen and (min-width: 1550px) and (max-width: 1800px) {
+  .cardcreatorbox {
+    padding: 14px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: auto;
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    width: 750px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .avatar:global(.ant-avatar) {
+    bottom: -20px;
+    left: 10%;
+    transform: translate(-50%, 0px);
+    border: 2px solid white;
+    background-color: #fea013;
+  }
+}
+
+@media only screen and (min-width: 1450px) and (max-width: 1550px) {
+  .cardcreatorbox {
+    padding: 14px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: auto;
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .avatar:global(.ant-avatar) {
+    bottom: -20px;
+    left: 10%;
+    transform: translate(-50%, 0px);
+    border: 2px solid white;
+    background-color: #fea013;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1450px) {
+  .cardcreatorbox {
+    padding: 14px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: auto;
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    width: 650px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .avatar:global(.ant-avatar) {
+    bottom: -20px;
+    left: 10%;
+    transform: translate(-50%, 0px);
+    border: 2px solid white;
+    background-color: #fea013;
+  }
+}

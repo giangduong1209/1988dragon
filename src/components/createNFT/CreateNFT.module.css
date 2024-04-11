@@ -1,0 +1,181 @@
+.table :global(table) {
+  background-color: #f3f3f3;
+  /* border-spacing: 0 1rem !important;
+    border-collapse: separate; */
+}
+
+.table :global(table tr td.ant-table-cell:first-child) {
+  /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+}
+
+.table :global(table tr td.ant-table-cell:last-child) {
+  /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+}
+.textArea {
+  background-color: #fff !important;
+}
+
+:where(.ant-input:focus),
+:where(.ant-input-focused) {
+  background-color: #fff !important;
+}
+.table :global(.ant-table) {
+  overflow-x: auto;
+}
+
+.table :global(.ant-table-thead) {
+  background: transparent;
+}
+
+.table :global(.ant-table-thead .ant-table-cell) {
+  background: #fff;
+  border-top-left-radius: unset;
+  font-weight: 700;
+  color: #000;
+}
+
+.table :global(.ant-table-thead .ant-table-cell::before) {
+  content: unset !important;
+}
+
+.table :global(.ant-table-tbody) {
+  background: #fff;
+}
+
+.table :global(.ant-table-row:hover .ant-table-cell) {
+  background: rgb(240, 240, 240) !important;
+  color: #fea013;
+}
+
+.table :global(.ant-table-cell > *) {
+  color: #000000 !important;
+}
+
+.table :global(.ant-tag) {
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 7px 25px;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.table :global(.ant-tag::first-letter) {
+  text-transform: uppercase;
+}
+
+.table :global(.ant-tag.tag-Buy),
+.table :global(.ant-tag.tag-Sell) {
+  background: -webkit-linear-gradient(#fea013, #fea013);
+  background-color: transparent !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #fea013;
+}
+
+.table :global(.ant-tag.tag-Waiting) {
+  background: -webkit-linear-gradient(#b5473a, #b5473a);
+  background-color: transparent !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #b5473a;
+  width: 120px;
+  text-align: center;
+}
+
+.table :global(.ant-tag.tag-Confirmed) {
+  background: -webkit-linear-gradient(#36a920, #36a920);
+  background-color: transparent !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #36a920;
+  width: 120px;
+  text-align: center;
+}
+.title {
+  background: linear-gradient(180deg, #fea013 0%, #fea013 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.balanceWrapper {
+  max-width: 1200px;
+  margin: 30px auto !important;
+  text-align: center;
+  padding: 0 15px;
+  flex: 1;
+}
+.createForm {
+  padding: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 50px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.formBore {
+  background: #fff;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.btnCreate {
+  width: 100% !important;
+  border-radius: 12px !important;
+  /* background: #000 !important; */
+  border: none !important;
+  font-weight: bold !important;
+  color: #ffffff !important;
+}
+
+.btnCreate:hover {
+  background-color: #2cace2 !important;
+  width: auto;
+  font-weight: bold;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px;
+}
+
+@media only screen and (min-width: 575px) and (max-width: 950px) {
+  .createForm {
+    padding-top: 50px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    max-width: 1030px !important;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .createForm {
+    padding: 20px;
+    max-width: 1030px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mycollectionwrap {
+    margin-bottom: 40px !important;
+  }
+}
+
+.nftImage :global(.ant-upload.ant-upload-select-picture-card) {
+  width: 100%;
+}
+
+.CreateWrapper {
+  max-width: 1200px;
+  margin: 30px auto !important;
+  padding: 20px 15px;
+  flex: 1;
+  background: #333;
+  border-radius: 15px;
+  margin-top: 80px !important;
+}

@@ -1,0 +1,13 @@
+.image {
+  position: relative;
+  background: #adadad;
+  border-radius: 10px;
+  width: 254px;
+  height: 254px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 8px;
+  object-fit: cover;
+}

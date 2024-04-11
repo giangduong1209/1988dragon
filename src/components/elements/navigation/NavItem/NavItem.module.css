@@ -1,0 +1,47 @@
+.subNav :global(.emotion-css-cache-1keldt4) {
+  display: flex;
+}
+.subNav :global(.emotion-css-cache-k008qs) {
+  align-items: center;
+  gap: 15px;
+}
+.subNav :global(.emotion-css-cache-3sby7u) {
+  align-items: center !important;
+}
+.navItem :global(.chakra-popover__content) {
+  box-shadow: -1px 0 9px 1px #2e2d2d;
+}
+/*  */
+
+@media (max-width: 768px) {
+  .navItem :global(.chakra-popover__content) {
+    width: 100px;
+    min-width: 300px;
+    box-shadow: -1px 0 9px 1px #2e2d2d;
+  }
+  .navItem :global(.chakra-popover__popper) {
+    transform: translate3d(230px, 136px, 0px) !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .navItem :global(.chakra-popover__popper) {
+    transform: translate3d(100px, 136px, 0px) !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .navItem :global(.chakra-popover__popper) {
+    transform: translate3d(65px, 136px, 0px) !important;
+  }
+}
+@media (max-width: 375px) {
+  .navItem :global(.chakra-popover__popper) {
+    transform: translate3d(40px, 136px, 0px) !important;
+  }
+}
+@media (max-width: 320px) {
+  .navItem :global(.chakra-popover__popper) {
+    transform: translate3d(10px, 136px, 0px) !important;
+  }
+}

@@ -1,0 +1,188 @@
+.layoutItem {
+  border-radius: 10px;
+  height: 200px;
+  padding: 20px 10px;
+  display: flex;
+  color: #fff;
+  position: relative;
+}
+
+.layoutItem:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.layoutItem:last-child {
+  margin-bottom: 10px;
+}
+
+.layoutItem:first-child {
+  margin-top: 10px;
+}
+
+.layoutItem .code {
+  position: absolute;
+  top: 5px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.layoutItem .type {
+  right: 5px;
+  top: 5px;
+  position: absolute;
+}
+
+.layoutItem .title {
+  font-size: 14px;
+}
+
+.layoutItem .description {
+  font-size: 10px;
+  line-height: 12px;
+  -webkit-line-clamp: 3;
+  /* display: box; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.layoutItem img {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.layoutItem :global(.ant-btn) {
+  height: 28px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.layoutItem .rmFromCartBtn {
+  border: 1px solid #fea013;
+  color: #fea013;
+}
+
+.layoutItem .rmFromCartBtn:hover {
+  border: none;
+  background: #fea013;
+  color: #fff;
+}
+
+.layoutItem .addToCartBtn {
+  border: 1px solid #fea013;
+}
+
+.layoutItem .addToCartBtn span {
+  background: linear-gradient(180deg, #fea013 0%, #fea013 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.layoutItem .addToCartBtn:hover {
+  border: none;
+  background: linear-gradient(180deg, #fea013 0%, #fea013 100%);
+}
+
+.layoutItem .addToCartBtn:hover span {
+  background: linear-gradient(180deg, #fff 0%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.layoutItem .sellOnMpBtn {
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #fea013 0%, #fea013 100%);
+}
+
+.layoutItem .sellOnMpBtn span {
+  background: linear-gradient(180deg, #fea013 0%, #fea013 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.layoutItem .sellOnMpBtn:hover {
+  background: linear-gradient(180deg, #fea013 0%, #fea013 100%);
+  border: none;
+}
+
+.layoutItem .sellOnMpBtn:hover span {
+  background: linear-gradient(180deg, #fff 0%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.layoutItem .unStakingBtn {
+  border: 1px solid #fea013;
+}
+
+.layoutItem .unStakingBtn span {
+  background: linear-gradient(180deg, #fea013 0%, #fea013 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.layoutItem .unStakingBtn:hover {
+  border: none;
+  background: #fea013;
+}
+
+.layoutItem .unStakingBtn:hover span {
+  background: linear-gradient(180deg, #fff 0%, #fff 100%);
+  background-clip: text;
+}
+
+.layoutItem .startStakingBtn {
+  width: 100%;
+  background-color: #fff;
+  color: #36a920;
+  border: solid 1px #36a920;
+}
+
+.layoutItem .startStakingBtn:hover {
+  color: #fff;
+  background-color: #36a920;
+  border: none;
+}
+
+.layoutItem.ssr {
+  background-color: #ff8d40;
+}
+
+.layoutItem.sr {
+  background-color: #ffb800;
+}
+
+.layoutItem.r {
+  background-color: #765eb0;
+}
+
+.layoutItemRight {
+  display: flex;
+  width: 55%;
+  padding: 0 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.layoutItemRight .itemOwner {
+  line-height: 14px;
+  margin-top: 5px;
+}
+
+.layoutItemRight .itemOwner p:first-child {
+  font-weight: 700;
+}

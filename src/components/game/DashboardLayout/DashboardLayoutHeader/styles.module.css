@@ -1,0 +1,50 @@
+.gameLayoutHeader {
+  background: #222222;
+  display: flex;
+  color: #fff;
+  padding: 15px 10px;
+}
+
+.gameLayoutHeaderItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 16.8px;
+}
+
+.gameLayoutHeaderItem :global(.ant-btn) {
+  border-radius: 5px;
+  height: 28px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.btnMenuMob {
+  padding: 4px 12px;
+  background-color: #fff;
+  color: #000;
+}
+
+.gameLayoutHeaderItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.inputText {
+  display: flex;
+  background: #fff;
+  border-radius: 5px;
+  height: 28px;
+  color: #000;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .gameLayoutHeader {
+    display: flex;
+    margin: 0 -10px;
+  }
+}
